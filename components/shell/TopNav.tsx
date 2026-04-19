@@ -39,6 +39,7 @@ export function TopNav({
       </button>
 
       <Link href="/app" className="flex shrink-0 items-center gap-2">
+        <Image src="/logo.svg" alt="" width={28} height={28} className="h-7 w-7 shrink-0" unoptimized />
         <span className="text-sm font-bold text-accent">BrokerDesk</span>
         <span className="hidden rounded-full bg-app-bg px-2 py-0.5 text-xs text-muted sm:inline">Demo</span>
       </Link>

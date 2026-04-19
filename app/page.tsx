@@ -1,35 +1,49 @@
-import Link from "next/link";
+import type { Metadata } from "next";
+import { Figtree, Manrope } from "next/font/google";
+import { MarketingFooter } from "@/components/marketing/MarketingFooter";
+import { MarketingHeader } from "@/components/marketing/MarketingHeader";
+import { MarketingHomeClient } from "@/components/marketing/MarketingHomeClient";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-manrope",
+  display: "swap",
+});
+
+const figtree = Figtree({
+  subsets: ["latin"],
+  weight: ["300", "400"],
+  variable: "--font-figtree",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Lofty Solution Suite",
+  description:
+    "Lofty is an all-in-one real estate solution that offers CRM, IDX, team management, lead generation and more bundled in a seamless, easy to use package.",
+  openGraph: {
+    title: "Lofty Solution Suite",
+    description:
+      "Lofty is an all-in-one real estate solution that offers CRM, IDX, team management, lead generation and more bundled in a seamless, easy to use package.",
+    url: "https://lofty.com",
+  },
+  twitter: {
+    card: "summary",
+    title: "Lofty Solution Suite",
+    description:
+      "Lofty is an all-in-one real estate solution that offers CRM, IDX, team management, lead generation and more bundled in a seamless, easy to use package.",
+  },
+};
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-app-bg px-6 py-16 text-text">
-      <div className="mx-auto max-w-3xl">
-        <p className="text-sm font-semibold text-accent">BrokerDesk Demo</p>
-        <h1 className="mt-3 text-3xl font-semibold tracking-tight">A CRM shell built for fast onboarding experiments</h1>
-        <p className="mt-4 text-base text-muted">
-          This scaffold mirrors common brokerage CRM layout patterns and ships with fake data, a CRM table, profile settings,
-          and an interactive Learning Hub (search, FAQ, tutorials).
-        </p>
-        <div className="mt-8">
-          <Link
-            href="/app"
-            className="inline-flex rounded-md bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
-          >
-            Open app
-          </Link>
-        </div>
-        <ul className="mt-10 space-y-3 text-sm text-muted">
-          <li>
-            <span className="font-semibold text-text">CRM:</span> pipeline-style list and lead detail with a timeline.
-          </li>
-          <li>
-            <span className="font-semibold text-text">AI:</span> module stubs in the top navigation for a guided tour.
-          </li>
-          <li>
-            <span className="font-semibold text-text">Guided onboarding:</span> Cmd+K search, FAQ anchors, and tutorial progress stored locally.
-          </li>
-        </ul>
-      </div>
+    <div className={`${manrope.variable} ${figtree.variable} min-h-screen font-[family-name:var(--font-manrope)] antialiased`}>
+      <MarketingHeader />
+      <main id="main-content">
+        <MarketingHomeClient />
+      </main>
+      <MarketingFooter />
     </div>
   );
 }
