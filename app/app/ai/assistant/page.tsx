@@ -7,7 +7,7 @@ export default function Page() {
     <div className="mx-auto max-w-5xl space-y-6">
       <PageHeader
         title="AI assistant"
-        description="Ask where a setting lives and the guide will map the path. On desktop it can also highlight the exact controls for you."
+        description="Ask where a setting lives, or ask a broader onboarding question. Strong UI-path matches stay guided, and broader questions use grounded help content."
       />
       <RelatedDocsCard presetId="ai-assistant" />
       <GuideAssistantPage />

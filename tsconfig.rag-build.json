@@ -9,10 +9,15 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "outDir": "/tmp/blistering-barnacles-guide-tests",
+    "outDir": "/tmp/blistering-barnacles-rag-build",
     "rootDir": ".",
     "noEmit": false
   },
-  "include": ["lib/guide/**/*.ts", "lib/rag/**/*.ts"],
+  "include": [
+    "scripts/build-rag-corpus.ts",
+    "lib/rag/**/*.ts",
+    "lib/help/**/*.ts",
+    "lib/guide/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

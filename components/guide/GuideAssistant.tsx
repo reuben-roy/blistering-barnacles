@@ -2,9 +2,101 @@
 
 import Link from "next/link";
 import { FormEvent, useState } from "react";
-import { CheckCircle2, Send, Sparkles, X } from "lucide-react";
+import { AlertCircle, CheckCircle2, LoaderCircle, Send, Sparkles, X } from "lucide-react";
+import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { Select } from "@/components/ui/Select";
 import { useGuideSession } from "./GuideProvider";
+import type { Source } from "@/lib/rag";
+
+function sourceLabel(kind: Source["kind"]) {
+  switch (kind) {
+    case "faq":
+      return "FAQ";
+    case "glossary":
+      return "Glossary";
+    case "tutorial":
+      return "Tutorial";
+    case "guide":
+      return "Guide";
+    case "doc":
+      return "Doc";
+    default:
+      return "Source";
+  }
+}
+
+function SourceChips({ sources }: { sources: Source[] }) {
+  if (!sources.length) return null;
+
+  return (
+    <div className="mt-4 flex flex-wrap gap-2">
+      {sources.map((source) => (
+        <Link
+          key={source.id}
+          href={source.url}
+          target={source.url.startsWith("http") ? "_blank" : undefined}
+          rel={source.url.startsWith("http") ? "noreferrer" : undefined}
+          className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1.5 text-xs text-text hover:border-accent hover:text-accent"
+        >
+          <Badge className="shrink-0">{sourceLabel(source.kind)}</Badge>
+          <span className="truncate">{source.title}</span>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+function AnswerStateCard() {
+  const { ragResult, isSubmitting } = useGuideSession();
+
+  if (isSubmitting) {
+    return (
+      <div className="rounded-2xl border border-border bg-app-bg/70 p-4">
+        <div className="flex items-center gap-2 text-sm font-semibold text-text">
+          <LoaderCircle className="h-4 w-4 animate-spin text-accent" />
+          Looking through the Learning Hub
+        </div>
+        <p className="mt-2 text-sm text-muted">
+          I&apos;m checking the local FAQ, glossary, tutorials, and guided flows for the closest grounded answer.
+        </p>
+      </div>
+    );
+  }
+
+  if (!ragResult) return null;
+
+  return (
+    <div
+      className={`rounded-2xl border p-4 ${
+        ragResult.insufficientContext
+          ? "border-amber-200 bg-amber-50"
+          : "border-border bg-app-bg/70"
+      }`}
+    >
+      <div className="flex items-start gap-2">
+        {ragResult.insufficientContext ? (
+          <AlertCircle className="mt-0.5 h-4 w-4 text-amber-700" />
+        ) : (
+          <Sparkles className="mt-0.5 h-4 w-4 text-accent" />
+        )}
+        <div className="min-w-0 flex-1">
+          <div className="text-sm font-semibold text-text">
+            {ragResult.insufficientContext ? "Best next step" : "Grounded answer"}
+          </div>
+          <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-text">{ragResult.answer}</p>
+          <SourceChips sources={ragResult.sources} />
+          {ragResult.insufficientContext ? (
+            <div className="mt-4 text-xs text-amber-900">
+              Lofty Support: {ragResult.supportContact.email} · {ragResult.supportContact.phone} ·{" "}
+              {ragResult.supportContact.hours}
+            </div>
+          ) : null}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function GuideAssistantSurface({ mode }: { mode: "panel" | "page" }) {
   const {
@@ -19,24 +111,29 @@ function GuideAssistantSurface({ mode }: { mode: "panel" | "page" }) {
     previewFlowId,
     previewSteps,
     previewTitle,
+    ragResult,
     sessionStatus,
     skipStep,
     startFlow,
     stopFlow,
     submitQuery,
     suggestions,
+    techLevel,
+    userContext,
+    isSubmitting,
     jumpToStep,
+    chooseTechLevel,
   } = useGuideSession();
   const [query, setQuery] = useState("");
 
   const stepsToRender = activeFlowId ? activeSteps : previewSteps;
   const title = activeFlowId ? activeFlowTitle : previewTitle;
-  const showSteps = stepsToRender.length > 0;
+  const showSteps = !ragResult && !isSubmitting && stepsToRender.length > 0;
 
   function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!query.trim()) return;
-    submitQuery(query);
+    void submitQuery(query);
     setQuery("");
   }
 
@@ -53,9 +150,9 @@ function GuideAssistantSurface({ mode }: { mode: "panel" | "page" }) {
             <Sparkles className="h-4 w-4" />
           </div>
           <div>
-            <div className="text-sm font-semibold text-text">AI Guide</div>
+            <div className="text-sm font-semibold text-text">AI Assistant</div>
             <div className="text-xs text-muted">
-              Ask where something lives and I&apos;ll map the path.
+              Ask where something lives or ask a broader onboarding question.
             </div>
           </div>
         </div>
@@ -72,12 +169,37 @@ function GuideAssistantSurface({ mode }: { mode: "panel" | "page" }) {
       </div>
 
       <div className="flex-1 space-y-4 overflow-y-auto px-4 py-4">
+        {mode === "page" ? (
+          <div className="rounded-2xl border border-border bg-app-bg/70 p-4">
+            <div className="text-sm font-semibold text-text">Answer style</div>
+            <p className="mt-1 text-sm text-muted">
+              Guided gives more hand-holding. Self-serve keeps the answers tighter.
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-[220px_minmax(0,1fr)] sm:items-end">
+              <Select
+                label="Assistant style"
+                value={techLevel}
+                onChange={(event) => chooseTechLevel(event.target.value === "self-serve" ? "self-serve" : "guided")}
+              >
+                <option value="guided">Guided</option>
+                <option value="self-serve">Self-serve</option>
+              </Select>
+              <div className="rounded-xl border border-border bg-surface px-3 py-2 text-sm text-muted">
+                Day {userContext.onboardingDay ?? "?"}
+                {userContext.completedSteps?.length
+                  ? ` · Completed: ${userContext.completedSteps.join(", ")}`
+                  : " · No completed onboarding steps yet"}
+              </div>
+            </div>
+          </div>
+        ) : null}
+
         <div className="flex flex-wrap gap-2">
           {suggestions.map((suggestion) => (
             <button
               key={suggestion}
               type="button"
-              onClick={() => submitQuery(suggestion)}
+              onClick={() => void submitQuery(suggestion)}
               className="rounded-full border border-border bg-app-bg px-3 py-1.5 text-xs text-muted hover:border-accent hover:text-accent"
             >
               {suggestion}
@@ -99,6 +221,8 @@ function GuideAssistantSurface({ mode }: { mode: "panel" | "page" }) {
             </div>
           ))}
         </div>
+
+        <AnswerStateCard />
 
         {showSteps ? (
           <div className="rounded-2xl border border-border bg-app-bg/70 p-4">
@@ -207,10 +331,10 @@ function GuideAssistantSurface({ mode }: { mode: "panel" | "page" }) {
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Where do I change my password?"
+            placeholder="How do I invite teammates or where do I change my password?"
             className="min-w-0 flex-1 rounded-xl border border-border bg-surface px-3 py-2 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent"
           />
-          <Button type="submit" className="shrink-0">
+          <Button type="submit" className="shrink-0" disabled={isSubmitting}>
             <Send className="h-4 w-4" />
             Send
           </Button>

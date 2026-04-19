@@ -9,11 +9,15 @@ import {
   type ReactNode,
 } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { buildOnboardingUserContext, readOnboardingContext, setOnboardingTechLevel } from "@/lib/storage/onboarding-context";
 import { getGuideFlow, resolveGuideFlowSteps } from "@/lib/guide/catalog";
 import { queryGuideElement, requestGuideReveal, waitForNextFrame } from "@/lib/guide/dom";
 import { guideExamplePrompts, resolveGuideIntent } from "@/lib/guide/resolve";
 import { matchesGuideRoute } from "@/lib/guide/routes";
 import { clampStepIndex, findStartingStepIndex } from "@/lib/guide/session";
+import { buildSupportFallback } from "@/lib/rag/support";
+import { shouldUseGuideReply, toConversationHistory } from "@/lib/guide/hybrid";
+import type { OnboardingTechLevel, RAGResult, RAGUserContext } from "@/lib/rag";
 import type { GuideMessage, GuideReply, ResolvedGuideStep } from "@/lib/guide/types";
 
 type GuideSessionStatus = "idle" | "guiding" | "complete";
@@ -33,13 +37,18 @@ type GuideContextValue = {
   currentStep: ResolvedGuideStep | null;
   missingStep: ResolvedGuideStep | null;
   sessionStatus: GuideSessionStatus;
+  ragResult: RAGResult | null;
+  userContext: RAGUserContext;
+  techLevel: OnboardingTechLevel;
+  isSubmitting: boolean;
   suggestions: string[];
-  submitQuery: (query: string) => void;
+  submitQuery: (query: string) => Promise<void>;
   startFlow: (flowId: string) => void;
   stopFlow: () => void;
   jumpToStep: (index: number) => void;
   markStepComplete: (targetId: string) => void;
   skipStep: () => void;
+  chooseTechLevel: (techLevel: OnboardingTechLevel) => void;
   openAssistant: () => void;
   closeAssistant: () => void;
   toggleAssistant: () => void;
@@ -87,6 +96,13 @@ export function GuideProvider({ children }: { children: ReactNode }) {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
   const [sessionStatus, setSessionStatus] = useState<GuideSessionStatus>("idle");
   const [missingTargetId, setMissingTargetId] = useState<string | null>(null);
+  const [ragResult, setRagResult] = useState<RAGResult | null>(null);
+  const [techLevel, setTechLevelState] = useState<OnboardingTechLevel>("guided");
+  const [userContext, setUserContext] = useState<RAGUserContext>({
+    techLevel: "guided",
+    completedSteps: [],
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const activeFlow = useMemo(() => (activeFlowId ? getGuideFlow(activeFlowId) : null), [activeFlowId]);
   const activeSteps = useMemo(
@@ -108,6 +124,12 @@ export function GuideProvider({ children }: { children: ReactNode }) {
     if (isDesktopGuide) return;
     setAssistantOpen(false);
   }, [isDesktopGuide]);
+
+  useEffect(() => {
+    const onboarding = readOnboardingContext();
+    setTechLevelState(onboarding.techLevel);
+    setUserContext(buildOnboardingUserContext());
+  }, []);
 
   useEffect(() => {
     if (!isDesktopGuide || sessionStatus !== "guiding" || !currentStep) return;
@@ -178,13 +200,80 @@ export function GuideProvider({ children }: { children: ReactNode }) {
     return () => element.removeEventListener(eventName, onEngage);
   }, [activeSteps.length, currentStep, isDesktopGuide, pathname, sessionStatus]);
 
-  function submitQuery(query: string) {
+  function resetGuideSession() {
+    setActiveFlowId(null);
+    setCurrentStepIndex(0);
+    setSessionStatus("idle");
+    setMissingTargetId(null);
+  }
+
+  async function submitQuery(query: string) {
     const trimmed = query.trim();
     if (!trimmed) return;
 
+    const userMessage = buildMessage("user", trimmed);
     const reply = resolveGuideIntent(trimmed, pathname);
-    setMessages((prev) => [...prev, buildMessage("user", trimmed), buildMessage("assistant", reply.message)]);
-    setLastReply(reply);
+    const nextUserContext = buildOnboardingUserContext();
+    setUserContext(nextUserContext);
+
+    if (shouldUseGuideReply(reply)) {
+      setMessages((prev) => [...prev, userMessage, buildMessage("assistant", reply.message)]);
+      setLastReply(reply);
+      setRagResult(null);
+      setIsSubmitting(false);
+    } else {
+      setMessages((prev) => [...prev, userMessage]);
+      setLastReply(null);
+      setRagResult(null);
+      setIsSubmitting(true);
+      resetGuideSession();
+
+      try {
+        const response = await fetch("/api/chat", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            question: trimmed,
+            history: toConversationHistory([...messages, userMessage]),
+            userContext: nextUserContext,
+          }),
+        });
+
+        const payload = (await response.json()) as RAGResult | { error?: string };
+        if (!response.ok) {
+          throw new Error(
+            "error" in payload && typeof payload.error === "string"
+              ? payload.error
+              : "Something went wrong. Please contact Lofty Support.",
+          );
+        }
+
+        setRagResult(payload as RAGResult);
+        setMessages((prev) => [
+          ...prev,
+          buildMessage(
+            "assistant",
+            (payload as RAGResult).insufficientContext
+              ? "I couldn't find enough local detail to safely walk you through that, so I added the best next step below."
+              : "I found the closest answer from the Learning Hub below.",
+          ),
+        ]);
+      } catch {
+        setRagResult(buildSupportFallback());
+        setMessages((prev) => [
+          ...prev,
+          buildMessage(
+            "assistant",
+            "I hit a snag pulling the answer, so I added the safest next step below.",
+          ),
+        ]);
+      } finally {
+        setIsSubmitting(false);
+      }
+    }
+
     if (isDesktopGuide) {
       setAssistantOpen(true);
     }
@@ -204,10 +293,7 @@ export function GuideProvider({ children }: { children: ReactNode }) {
   }
 
   function stopFlow() {
-    setActiveFlowId(null);
-    setCurrentStepIndex(0);
-    setSessionStatus("idle");
-    setMissingTargetId(null);
+    resetGuideSession();
   }
 
   function jumpToStep(index: number) {
@@ -242,6 +328,12 @@ export function GuideProvider({ children }: { children: ReactNode }) {
     setMissingTargetId(null);
   }
 
+  function chooseTechLevel(next: OnboardingTechLevel) {
+    setOnboardingTechLevel(next);
+    setTechLevelState(next);
+    setUserContext(buildOnboardingUserContext());
+  }
+
   const value: GuideContextValue = {
     assistantOpen,
     isDesktopGuide,
@@ -257,13 +349,18 @@ export function GuideProvider({ children }: { children: ReactNode }) {
     currentStep,
     missingStep,
     sessionStatus,
-    suggestions: lastReply?.suggestions ?? guideExamplePrompts,
+    ragResult,
+    userContext,
+    techLevel,
+    isSubmitting,
+    suggestions: guideExamplePrompts,
     submitQuery,
     startFlow,
     stopFlow,
     jumpToStep,
     markStepComplete,
     skipStep,
+    chooseTechLevel,
     openAssistant: () => setAssistantOpen(true),
     closeAssistant: () => setAssistantOpen(false),
     toggleAssistant: () => setAssistantOpen((prev) => !prev),

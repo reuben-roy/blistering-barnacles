@@ -7,7 +7,8 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "test:guide": "rm -rf /tmp/blistering-barnacles-guide-tests && tsc -p tsconfig.guide-tests.json && node --test /tmp/blistering-barnacles-guide-tests/lib/guide/*.test.js"
+    "build:rag-corpus": "rm -rf /tmp/blistering-barnacles-rag-build && tsc -p tsconfig.rag-build.json && node /tmp/blistering-barnacles-rag-build/scripts/build-rag-corpus.js",
+    "test:guide": "rm -rf /tmp/blistering-barnacles-guide-tests && tsc -p tsconfig.guide-tests.json && node --test /tmp/blistering-barnacles-guide-tests/lib/guide/*.test.js /tmp/blistering-barnacles-guide-tests/lib/rag/*.test.js"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
