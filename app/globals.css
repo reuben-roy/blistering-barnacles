@@ -31,3 +31,95 @@ body {
   background: var(--app-bg);
   color: var(--text);
 }
+
+.dashboard-calendar .fc {
+  --fc-border-color: var(--border);
+  --fc-button-bg-color: var(--surface);
+  --fc-button-border-color: var(--border);
+  --fc-button-hover-bg-color: var(--app-bg);
+  --fc-button-hover-border-color: var(--border);
+  --fc-button-active-bg-color: var(--accent);
+  --fc-button-active-border-color: var(--accent);
+  --fc-button-text-color: var(--text);
+  --fc-event-border-color: transparent;
+  --fc-now-indicator-color: var(--danger);
+}
+
+.dashboard-calendar .fc .fc-toolbar {
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.dashboard-calendar .fc .fc-toolbar-title {
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.dashboard-calendar .fc .fc-button {
+  border-radius: 0.625rem;
+  box-shadow: none;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  text-transform: none;
+}
+
+.dashboard-calendar .fc .fc-button:focus {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+.dashboard-calendar .fc .fc-button-primary:not(:disabled).fc-button-active,
+.dashboard-calendar .fc .fc-button-primary:not(:disabled):active,
+.dashboard-calendar .fc .fc-button-primary:hover {
+  color: white;
+}
+
+.dashboard-calendar .fc .fc-scrollgrid,
+.dashboard-calendar .fc .fc-theme-standard td,
+.dashboard-calendar .fc .fc-theme-standard th {
+  border-color: var(--border);
+}
+
+.dashboard-calendar .fc .fc-col-header-cell-cushion,
+.dashboard-calendar .fc .fc-daygrid-day-number {
+  color: var(--text);
+  font-weight: 600;
+  padding: 0.75rem 0.5rem;
+}
+
+.dashboard-calendar .fc .fc-timegrid-axis-cushion,
+.dashboard-calendar .fc .fc-timegrid-slot-label-cushion {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.dashboard-calendar .fc .fc-timegrid-slot {
+  height: 3rem;
+}
+
+.dashboard-calendar .fc .fc-timegrid-col.fc-day-today,
+.dashboard-calendar .fc .fc-daygrid-day.fc-day-today {
+  background: color-mix(in srgb, var(--accent) 6%, white);
+}
+
+.dashboard-calendar .fc .fc-event {
+  border-radius: 0.875rem;
+  box-shadow: 0 10px 20px -18px rgba(15, 23, 42, 0.7);
+}
+
+.dashboard-calendar .fc .fc-event-main {
+  padding: 0.25rem 0.45rem;
+}
+
+@media (max-width: 640px) {
+  .dashboard-calendar .fc .fc-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .dashboard-calendar .fc .fc-toolbar-chunk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -6,7 +6,7 @@ export default function HelpHomePage() {
     <div className="mx-auto max-w-5xl space-y-6">
       <PageHeader
         title="Learning Hub"
-        description="Search, learn, and do: interactive FAQ, tutorials with progress, and deep links into the app shell."
+        description="Search, learn, and do: official docs, interactive tutorials, FAQ, and deep links into the app shell."
       />
       <HelpHubClient />
     </div>

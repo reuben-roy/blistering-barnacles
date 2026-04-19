@@ -1,0 +1,1726 @@
+[
+  {
+    "url": "https://chimecrm.zendesk.com/access?locale=en-us&brand_id=1239656&return_to=https%3A%2F%2Fhelp.lofty.com%2Fhc%2Fen-us&locale=en-us",
+    "text": "Sign in"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/categories/115000016343-Get-Started",
+    "text": "Getting Started"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/categories/115000016986-CRM-Agent",
+    "text": "CRM"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/categories/25321717078811-Website",
+    "text": "IDX Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/categories/115000016423-Mobile-App",
+    "text": "Mobile App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/categories/201663123-What-s-New-",
+    "text": "What's New!"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360008437811-Getting-Started-Guides",
+    "text": "Getting Started Guides"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48574168766235-User-Guided-Setup-Getting-Started-Step-by-Step",
+    "text": "User Guided Setup: Getting Started Step-by-Step"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48475807532699-Company-Owner-Guided-Setup-Getting-Started-Step-by-Step",
+    "text": "Company Owner Guided Setup: Getting Started Step-by-Step"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46182047758235-Lofty-Office-Team-Owner-Admin-Setup-Training-Guide",
+    "text": "Lofty Office/Team Owner/Admin Setup & Training Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054524632-Lofty-Team-Owner-Admin-Setup-Training-Guide",
+    "text": "Lofty Team Owner/Admin Setup & Training Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054969331-Lofty-Agent-User-Setup-Training-Guide",
+    "text": "Lofty Agent User Setup & Training Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360010661731-Other-Getting-Started",
+    "text": "Other - Getting Started"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/13857197513115-How-to-Access-the-Videos-and-Tutorials",
+    "text": "How to Access the Videos and Tutorials"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/9315195565723-Lofty-User-Transfer",
+    "text": "Lofty User Transfer"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115000018223-Multi-Team-Edition-Introduction",
+    "text": "Multi-Team Edition Introduction"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360001742152-Being-a-Lender-with-Lofty",
+    "text": "Being a Lender with Lofty"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/40503206352923-Integrations",
+    "text": "Integrations"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/40528973070875-CRM-Integrations",
+    "text": "CRM Integrations"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40537616665627-Aidentified-Integration",
+    "text": "Aidentified Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40530819240475-BombBomb-Integration",
+    "text": "BombBomb Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40541888607643-Calendly-Integration",
+    "text": "Calendly Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/43313315817499-Canva-Integration",
+    "text": "Canva Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40529719302171-CloudCMA-Integration",
+    "text": "CloudCMA Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/40545794157339-Website-Integrations",
+    "text": "Website Integrations"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40546135010331-Adwerx-Integration",
+    "text": "Adwerx Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40546203784987-Bing-Meta-Search-Console",
+    "text": "Bing Meta (Search Console)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40545896421659-Facebook-Pixel-Integration",
+    "text": "Facebook Pixel Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038373351-Google-Analytics-Integration",
+    "text": "Google Analytics Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054865592-Google-Calendar-Integration",
+    "text": "Google Calendar Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40543275207195-Adwerx-Integration",
+    "text": "Adwerx Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40537600902683-Aidentified-Integration",
+    "text": "Aidentified Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40529383087643-Apination-API-Nation-Integrations",
+    "text": "Apination / API Nation Integrations"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40541752816411-Bing-Meta-Search-Console",
+    "text": "Bing Meta (Search Console)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40530782817051-BombBomb-Integration",
+    "text": "BombBomb Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40543925341723-Brokermint-Integration",
+    "text": "Brokermint Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25349206937115-Open-House-Forms",
+    "text": "Open House Forms"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360023770952-Open-House-Forms",
+    "text": "Open House Forms"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25329453869723-Dashboard",
+    "text": "Dashboard"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/8472031391131-Dashboard-Overview",
+    "text": "Dashboard Overview"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328999668123-Listing-Alert",
+    "text": "Listing Alert"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25735344467867-Market-Report",
+    "text": "Market Report"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115002884492-Market-Reports",
+    "text": "Market Reports"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25735181741595-Property-Alert-Market-Snapshot",
+    "text": "Property Alert/Market Snapshot"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/217764483-Property-Alerts-Market-Snapshots",
+    "text": "Property Alerts & Market Snapshots"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46283225611291-Property-Alerts-Automatically-Send-Relevant-Listings-to-Your-Leads",
+    "text": "Property Alerts: Automatically Send Relevant Listings to Your Leads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115002891271-Setting-Up-and-Using-Auto-Property-Alerts",
+    "text": "Setting Up and Using Auto Property Alerts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328776095387-Showing",
+    "text": "Showing"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25735484464539-Buyer-Renter-Tour",
+    "text": "Buyer/Renter Tour"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/13186756281243-Property-Tour",
+    "text": "Property Tour"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25735442564251-Showing-Management-Web-App",
+    "text": "Showing Management (Web & App)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/18596161600027-Listing-Showing-Management",
+    "text": "Listing Showing Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25286031861915-Account-Permissions",
+    "text": "Account & Permissions"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25329272079259-Billing",
+    "text": "Billing"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/7134172721691-Billing-Center",
+    "text": "Billing Center"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/41559947970459-Pay-for-Lofty-with-ACH-Automated-Clearing-House",
+    "text": "Pay for Lofty with ACH (Automated Clearing House)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34571596158107-Sales-Tax",
+    "text": "Sales Tax"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25731054724379-Security-and-Account-Access",
+    "text": "Security and Account Access"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/8814830989211-Security-and-Account-Access",
+    "text": "Security and Account Access"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360002295051-Team-Management",
+    "text": "Team Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47293630710171-How-to-Import-Agents-into-Lofty-CRM",
+    "text": "How to Import Agents into Lofty CRM"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40003579067547-Agent-Opt-In-Model-Pay-By-Entity",
+    "text": "Agent Opt-In Model: Pay By Entity"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/29980632097691-Office-and-Team-Add-Ons",
+    "text": "Office and Team Add-Ons"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/13759365053339-Private-Instance-Add-On-Retired",
+    "text": "Private Instance Add On (Retired)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/10385541670427-Single-Sign-On-SSO-Configuration",
+    "text": "Single Sign On (SSO) Configuration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25329328968475-User-Settings",
+    "text": "User Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/218007123-Complete-your-Lofty-Profile-Email-Signature",
+    "text": "Complete your Lofty Profile, Email Signature"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/8721920027035-CRM-Settings",
+    "text": "CRM Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/38585284533531-Goal-Setting-Portal",
+    "text": "Goal Setting Portal"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360015946952-How-to-reset-your-Lofty-Password",
+    "text": "How to reset your Lofty Password"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/217091086-Log-In-to-your-Lofty-Account",
+    "text": "Log In to your Lofty Account"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/115000549423-Lead-Management",
+    "text": "Lead Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25344679693979-Assigning-Leads-Collaboration",
+    "text": "Assigning Leads & Collaboration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360043425691-Agent-to-Agent-Lead-Collaboration",
+    "text": "Agent to Agent Lead Collaboration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055290491-Lender-and-Agent-Lead-Collaboration",
+    "text": "Lender and Agent Lead Collaboration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25344037804059-Lead-Category-Privacy",
+    "text": "Lead Category & Privacy"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115003544406-Lead-Ownership",
+    "text": "Lead Ownership"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038382872-Lead-Pond",
+    "text": "Lead Pond"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037582411-Partial-Lead-Door-Knock-Feature",
+    "text": "Partial Lead Door Knock Feature"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360001939932-Partial-Leads",
+    "text": "Partial Leads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25731494118043-Lead-Distribution",
+    "text": "Lead Distribution"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115003014771-Assigning-Leads-to-Custom-Roles",
+    "text": "Assigning Leads to Custom Roles"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/11055755929499-Assignment-Group",
+    "text": "Assignment Group"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054872172-Duplicate-Leads-Merging-Duplicates",
+    "text": "Duplicate Leads + Merging Duplicates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4407645128347-Enterprise-Lead-Routing",
+    "text": "Enterprise Lead Routing"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360047876811-In-Depth-Round-Robin-Next-Up",
+    "text": "In-Depth: Round Robin & Next Up"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/28711826089755-Lead-Import-Export",
+    "text": "Lead Import & Export"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360011616892-Lead-Export",
+    "text": "Lead Export"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360001710831-Lead-Import-via-CSV-Spreadsheet",
+    "text": "Lead Import (via CSV/Spreadsheet)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360049874951-Lead-Import-via-Google-Contacts",
+    "text": "Lead Import (via Google Contacts)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/14270244807451-Lead-Import-via-Lofty-App",
+    "text": "Lead Import (via Lofty App)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25343919205019-Organize-Leads",
+    "text": "Organize Leads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054872212-Custom-Fields",
+    "text": "Custom Fields"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055290571-Lead-Organization-with-Filters",
+    "text": "Lead Organization with Filters"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115002890651-Lead-Organization-with-Pipeline-Stages",
+    "text": "Lead Organization with Pipeline Stages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038401831-Lead-Organization-with-Segments",
+    "text": "Lead Organization with Segments"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360041252272-Lead-Organization-with-Sources",
+    "text": "Lead Organization with Sources"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328179409307-People-List-Detail-Page-Overview",
+    "text": "People List & Detail Page Overview"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038382932-Add-a-Lead",
+    "text": "Add a Lead"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115002886592-How-to-Delete-Erase-Leads",
+    "text": "How to Delete/Erase Leads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360021258652-How-to-Manage-the-Family-Members-of-a-Lead",
+    "text": "How to Manage the Family Members of a Lead"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360042268332-Lead-Phone-Number-Validity",
+    "text": "Lead Phone Number Validity"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47347302562715-Lead-Preference-Profiles",
+    "text": "Lead Preference Profiles"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360004522952-Notifications",
+    "text": "Notifications"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25732879792923-Notification",
+    "text": "Notification"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360013184692-Add-an-additional-email-address-to-receive-new-lead-alerts",
+    "text": "Add an additional email address to receive new lead alerts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360046736752-Dashboard-Announcement-Board",
+    "text": "Dashboard Announcement Board"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360016101752-Lofty-Notifications",
+    "text": "Lofty Notifications"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/115003018292-Opportunity-Notifications",
+    "text": "Opportunity Notifications"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25326537258011-AI-Copilots",
+    "text": "AI Copilots"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/45950138856859-Agent-Studio",
+    "text": "Agent Studio"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46003047603867-Getting-Started-with-Lofty-Agent-Studio",
+    "text": "Getting Started with Lofty Agent Studio"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/33089281497371-AI-Assistant",
+    "text": "AI Assistant"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/33090360187675-AI-Assistant",
+    "text": "AI Assistant"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/44068001384603-AI-Lead-Health-Analysis-Understand-and-Prioritize-Your-Leads",
+    "text": "AI Lead Health Analysis: Understand and Prioritize Your Leads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40528908682907-Using-AI-Assistant-Multi-Step-Tasks",
+    "text": "Using AI Assistant Multi-Step Tasks"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40142262428059-AI-Assistant-Smart-Notifications",
+    "text": "AI Assistant Smart Notifications"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40141859532699-AI-Copilots-Call-Summary-Transcript",
+    "text": "AI Copilots Call Summary + Transcript"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/45957970349467-AI-Smart-Plan-Workflows",
+    "text": "AI Smart Plan Workflows"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45958201968411-AI-Smart-Plans-Workflow",
+    "text": "AI Smart Plans Workflow"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/45949973366939-Homeowner-Agent",
+    "text": "Homeowner Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45507362712219-Homeowner-Agent",
+    "text": "Homeowner Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25326609054363-Sales-Agent",
+    "text": "Sales Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48973695962523-Sales-Agent-Meet-Your-Digital-Employee",
+    "text": "Sales Agent: Meet Your Digital Employee"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47108878161435-Sales-Agent-Virtual-Number",
+    "text": "Sales Agent Virtual Number"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46088402849819-Configure-Your-Office-AI-Sales-Agent",
+    "text": "Configure Your Office AI Sales Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45951611704603-Sales-Agent-Smart-Leads-Playbook-Settings",
+    "text": "Sales Agent Smart Leads & Playbook Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/39659584983067-Getting-Started-with-AI-Sales-Agent",
+    "text": "Getting Started with AI Sales Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/45950019608219-SEO-Agent",
+    "text": "SEO Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/44703077799579-SEO-Performance-Overview-Understand-What-s-Driving-Your-Online-Growth",
+    "text": "SEO Performance Overview: Understand What’s Driving Your Online Growth"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/28406739481499-SEO-Setup-Checklist",
+    "text": "SEO Setup Checklist"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/34577656487579-Social-Agent",
+    "text": "Social Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34581906540955-Social-Agent",
+    "text": "Social Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/45950037873307-Website-Building-Agent",
+    "text": "Website Building Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46049898651291-How-to-Create-Your-Website-with-the-Website-Building-Agent",
+    "text": "How to Create Your Website with the Website Building Agent"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/43758187528731-Understanding-the-AI-Copilots-Ecosystem-Assistant-and-Agents",
+    "text": "Understanding the AI Copilots Ecosystem: Assistant and Agents"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360003077651-Lead-Communication-Automation",
+    "text": "Lead Communication & Automation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/115001400463-Call-and-Text-Packages",
+    "text": "Call and Text Packages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054858692-Adding-Removing-Call-or-Text-Packages",
+    "text": "Adding / Removing Call or Text Packages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360059754912-Billing-Usage-and-Availability-for-Call-Text-Packages",
+    "text": "Billing, Usage, and Availability for Call/Text Packages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360000306652-Call-Text-Package-Settings",
+    "text": "Call/Text Package Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360057685172-Three-Line-Dialer-Guide",
+    "text": "Three Line Dialer Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328053176859-Calling",
+    "text": "Calling"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360001571612-Availability-Working-Hours-for-Phone-Calls",
+    "text": "Availability (Working Hours) for Phone Calls"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360000305252-Call-List-Standard",
+    "text": "Call List (Standard)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360000305632-Call-Questionnaires",
+    "text": "Call Questionnaires"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360000306052-Call-Scripts",
+    "text": "Call Scripts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360042818171-Calling-Leads-Best-Practices",
+    "text": "Calling Leads Best Practices"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25327218723227-Compliance",
+    "text": "Compliance"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48036961381659-10DLC-Best-Practices",
+    "text": "10DLC Best Practices"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/17141883940379-A2P-10DLC-What-It-Is-Which-Plan-to-Choose",
+    "text": "A2P 10DLC - What It Is & Which Plan to Choose"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/35209288678555-DNC-com-Contact-Center-Compliance-Integration",
+    "text": "DNC.com (Contact Center Compliance) Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/35314857154075-Do-Not-Contact-Settings",
+    "text": "Do Not Contact Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34198619150363-How-to-Register-for-A2P-10DLC",
+    "text": "How to Register for A2P 10DLC"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25345409624219-Email",
+    "text": "Email"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45980662284571-Email-Marketing-Dashboard",
+    "text": "Email Marketing Dashboard"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4403048145307-Email-Opt-In-Status",
+    "text": "Email Opt-In Status"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360042326212-Email-Subscription-Status",
+    "text": "Email Subscription Status"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055290611-Email-Templates",
+    "text": "Email Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360001687932-How-to-Add-a-Video-to-Emails",
+    "text": "How to Add a Video to Emails"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25346193434907-Lead-Agent-Variables",
+    "text": "Lead & Agent Variables"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055270071-Email-and-Text-Variables",
+    "text": "Email and Text Variables"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25346111796251-Mass-Emails-Texts",
+    "text": "Mass Emails & Texts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054872312-Send-Mass-Emails-Texts",
+    "text": "Send Mass Emails & Texts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25327023532955-Smart-Plan",
+    "text": "Smart Plan"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45537578767643-Smart-Plan-Builder",
+    "text": "Smart Plan Builder"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4419016941083-Smart-Plans-FAQs",
+    "text": "Smart Plans FAQs"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4414537621275-Zapier-Zaps-Smart-Plans",
+    "text": "Zapier Zaps + Smart Plans"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360003073632-Tasks-and-Appointments",
+    "text": "Tasks and Appointments"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/216290543-Appointments",
+    "text": "Appointments"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/6582612402715-Lofty-Calendar",
+    "text": "Lofty Calendar"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360017514112-Task-Management",
+    "text": "Task Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25327882717979-Texting",
+    "text": "Texting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47332506052891-Group-Texting",
+    "text": "Group Texting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4407592156699-MMS-Image-Messaging",
+    "text": "MMS, Image Messaging"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4402878822285-Text-Templates",
+    "text": "Text Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360057630352-Texting-via-Lofty",
+    "text": "Texting via Lofty"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25327259944859-Virtual-Number",
+    "text": "Virtual Number"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360059630312-Company-Number",
+    "text": "Company Number"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/44163308467355-Follow-Up-Boss-Port-In-Process",
+    "text": "Follow Up Boss Port In Process"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360047294012-Getting-Started-with-a-Virtual-Number",
+    "text": "Getting Started with a Virtual Number"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46089665196315-Office-Virtual-Number",
+    "text": "Office Virtual Number"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/8471846182555-Personal-Virtual-Number",
+    "text": "Personal Virtual Number"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25345811845915-Workspace",
+    "text": "Workspace"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/5591212569371-Lofty-Workspaces",
+    "text": "Lofty Workspaces"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328719584539-Listing-CRM",
+    "text": "Listing (CRM)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328828422939-Listing-Discovery-Web-App",
+    "text": "Listing Discovery (Web & App)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360002361751-All-Listings-Hot-Sheets",
+    "text": "All Listings & Hot Sheets"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/25385036912411-REBNY-Listing-Management-Partner",
+    "text": "REBNY Listing Management Partner"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25735024136475-Manual-Listing",
+    "text": "Manual Listing"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/6586244604699-Manual-Listings",
+    "text": "Manual Listings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25734903471259-My-Team-Listings",
+    "text": "My/Team Listings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26785469679387-Buyer-Agent-Compensation",
+    "text": "Buyer Agent Compensation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360004048551-My-Team-Listings",
+    "text": "My/Team Listings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4410497918107-Smart-Listings",
+    "text": "Smart Listings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25734948583835-Properties-Lead-Detail",
+    "text": "Properties (Lead Detail)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360023777632-How-To-Add-a-Property-Address-Under-Lead-s-Preferences",
+    "text": "How To Add a Property Address Under Lead's Preferences"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/16226844367771-Marketing-Advertising",
+    "text": "Marketing & Advertising"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25734156270491-Ads-Compliance",
+    "text": "Ads Compliance"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/19462976770459-RESPA-Lofty",
+    "text": "RESPA & Lofty"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25349815474203-Brand-Awareness",
+    "text": "Brand Awareness"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/33096764594459-Branding-Bundle",
+    "text": "Branding Bundle"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/32531151443995-Lofty-Bloom",
+    "text": "Lofty Bloom"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/18604618774043-Sphere-Ads",
+    "text": "Sphere Ads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25349698165659-Geographic-Farming",
+    "text": "Geographic Farming"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055290711-Design-Center",
+    "text": "Design Center"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/10099421190427-Geographic-Farming",
+    "text": "Geographic Farming"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360058318632-Print-House-Mailers",
+    "text": "Print House: Mailers"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25349833882779-Lead-Generation",
+    "text": "Lead Generation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360041757672-Facebook-Landing-Page-Ads",
+    "text": "Facebook Landing Page Ads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26883984829083-Google-Microsoft-Bing-PPC-Search-Ads",
+    "text": "Google & Microsoft Bing PPC Search Ads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/14427278320411-Google-Local-Service-Ads-LSA",
+    "text": "Google Local Service Ads (LSA)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/16224091100571-Google-My-Business-Setup-Guide-for-Google-Local-Service-Ads-LSA",
+    "text": "Google My Business Setup Guide for Google Local Service Ads (LSA)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037126792-Lofty-Lead-Generation-FAQs",
+    "text": "Lofty Lead Generation FAQs"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25349754573851-Listing-Ads",
+    "text": "Listing Ads"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/10989407456283-Boost-Post",
+    "text": "Boost Post"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055820611-Listing-Blast",
+    "text": "Listing Blast"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/30583453855387-Zip-Code-Blast",
+    "text": "Zip Code Blast"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25734066720411-Marketing-Tools",
+    "text": "Marketing Tools"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037989472-Marketing-Section-Lofty-Lead-Capture-Tools",
+    "text": "Marketing Section - Lofty Lead Capture Tools"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/16224414374811-Supercharging-Real-Estate-Advertising-Boosting-Lead-Quality-with-Facebook-s-Conversion-API-and-Google-s-OCI",
+    "text": "Supercharging Real Estate Advertising: Boosting Lead Quality with Facebook's Conversion API and Google's OCI"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25349327418651-Postcards-Letters",
+    "text": "Postcards & Letters"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360058352672-Postcard-Engagement-Text-Codes-and-QR-Codes",
+    "text": "Postcard Engagement: Text Codes and QR Codes"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360061559931-Recurring-Postcards-Geographic-Farming",
+    "text": "Recurring Postcards (Geographic Farming)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25321514795931-Transactions",
+    "text": "Transactions"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25329487805595-Transaction",
+    "text": "Transaction"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/18252204443547-Commission-Disbursement-Authorization-CDA-Generation",
+    "text": "Commission Disbursement Authorization (CDA) Generation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4412776507163-Offer-Management",
+    "text": "Offer Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/37425534313115-Transaction-Document-Templates",
+    "text": "Transaction Document Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48972164737435-Transaction-Lead-Portal",
+    "text": "Transaction Lead Portal"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360057001712-Transaction-Management-Checklists",
+    "text": "Transaction Management Checklists"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360004530611-Reporting",
+    "text": "Reporting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25733019284379-Reporting",
+    "text": "Reporting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360043417731-Activities-Timeline",
+    "text": "Activities Timeline"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/39194478318875-Agent-Accountability-Activity-Leaderboard",
+    "text": "Agent Accountability Activity Leaderboard"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/41238866625051-Agent-Activity-Metrics",
+    "text": "Agent Activity Metrics"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038030552-Business-Summary-Reporting",
+    "text": "Business Summary (Reporting)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037335872-Email-Accountability-Reporting",
+    "text": "Email Accountability (Reporting)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/37938425417499-Reporting-Page-Metrics",
+    "text": "Reporting Page Metrics"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328347077787-Add-Ons",
+    "text": "Add-Ons"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328518907035-Lofty-Present-CMA-and-Listing-Presentation",
+    "text": "Lofty Present: CMA and Listing Presentation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26265328610075-How-to-Create-a-CMA-and-Listing-Presentation",
+    "text": "How to Create a CMA and Listing Presentation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26788172210971-How-to-Create-a-Listing-Presentation-Template",
+    "text": "How to Create a Listing Presentation Template"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4408440387099-How-to-Purchase-the-Lofty-Present-Add-On",
+    "text": "How to Purchase the Lofty Present Add On"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/41689720717851-LoftyWorks-Property-Management",
+    "text": "LoftyWorks - Property Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/41690402776859-Sunsetting-of-LoftyWorks-Property-Management-Add-On",
+    "text": "Sunsetting of LoftyWorks (Property Management Add-On)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328514484891-Seller-Report",
+    "text": "Seller Report"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/7600441568411-Seller-Report",
+    "text": "Seller Report"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25328328087067-Social-Studio",
+    "text": "Social Studio"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/18315075779483-Social-Media-Account-Troubleshooting-Guide",
+    "text": "Social Media Account Troubleshooting Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4416954832795-Social-Studio",
+    "text": "Social Studio"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/23375856037659-Social-Studio-Pro",
+    "text": "Social Studio Pro"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/23376210406555-Auto-Generated-Listing-Videos",
+    "text": "Auto-Generated Listing Videos"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/23376469193755-Retired-Automatic-Listing-Posts",
+    "text": "Retired - Automatic Listing Posts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/23376022978203-Retired-Social-Studio-Growth-and-Elite",
+    "text": "Retired - Social Studio Growth and Elite"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/23376549608091-Social-Media-Feed-Block",
+    "text": "Social Media Feed Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/31336546613019-Compliance",
+    "text": "Compliance"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/40529369381019-Accessibility-ADA-WCAG-Solution",
+    "text": "Accessibility / ADA / WCAG Solution"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34736360933915-Cookie-Preference-Settings",
+    "text": "Cookie Preference Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34891569535643-Data-Subject-Access-Request-DSAR",
+    "text": "Data Subject Access Request (DSAR)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/31337234468123-Website-Cookies",
+    "text": "Website Cookies"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25743369274267-Landing-Page",
+    "text": "Landing Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25743383538843-Landing-Page",
+    "text": "Landing Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038228552-Landing-Pages",
+    "text": "Landing Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25323350046619-Featured-Area",
+    "text": "Featured Area"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25737239633435-Featured-Area",
+    "text": "Featured Area"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037816512-Add-Edit-Featured-Areas",
+    "text": "Add / Edit Featured Areas"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25322694778651-CMS",
+    "text": "CMS"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360007590131-Block-Library",
+    "text": "Block Library"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037816532-Add-Remove-Edit-Blocks-on-Pages",
+    "text": "Add / Remove / Edit Blocks on Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038293271-Agent-Block",
+    "text": "Agent Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360042441452-Blog-Block",
+    "text": "Blog Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038293191-Company-Intro-Block",
+    "text": "Company Intro Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038293171-Contact-Block",
+    "text": "Contact Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25345129183899-Blocking-Spam",
+    "text": "Blocking Spam"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4407325477531-Block-Emails",
+    "text": "Block Emails"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25345015921051-Favicon",
+    "text": "Favicon"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038005432-How-to-customize-website-favicon",
+    "text": "How to customize website favicon?"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/29524730960027-Header-Footer-Logo",
+    "text": "Header/Footer/Logo"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038293211-Footer",
+    "text": "Footer"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054747512-Header",
+    "text": "Header"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/29525747357851-Logo",
+    "text": "Logo"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25323312892315-Multilingual-Currency",
+    "text": "Multilingual & Currency"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/13764506865947-Language-Translation-and-Currency-Conversion-Add-On",
+    "text": "Language Translation and Currency Conversion Add On"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25322801461531-Page-Editor",
+    "text": "Page Editor"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037816472-Add-Edit-Website-Pages",
+    "text": "Add / Edit Website Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038184011-Edit-Website-Navigation-Bar",
+    "text": "Edit Website Navigation Bar"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038182591-How-to-Save-Restore-Website-Versions",
+    "text": "How to Save / Restore Website Versions"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4407326352155-QR-Codes",
+    "text": "QR Codes"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25351268310171-Pages",
+    "text": "Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038509071-About-Page",
+    "text": "About Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360039683372-Blank-Page",
+    "text": "Blank Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038133392-Contact-Us-Page",
+    "text": "Contact Us Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037816492-Home-Page-Overview",
+    "text": "Home Page Overview"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360040092491-Link-Page",
+    "text": "Link Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25322739547291-Website-Creation",
+    "text": "Website Creation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26507515965339-Cancel-Reset-or-Downgrade-Website",
+    "text": "Cancel, Reset, or Downgrade Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054969871-Start-your-Lofty-IDX-Website",
+    "text": "Start your Lofty IDX Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360061570451-Website-Team-Info",
+    "text": "Website Team Info"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25322594374939-Member-Website",
+    "text": "Member Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25736573256987-Agent-Subdomain",
+    "text": "Agent Subdomain"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054744232-Agent-Websites",
+    "text": "Agent Websites"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25736406322715-Agent-Group-Website",
+    "text": "Agent/Group Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360055394331-Understanding-Website-Options-Agent-Websites-vs-Vanity-Domain-Sites-vs-Full-SEO-Sites",
+    "text": "Understanding Website Options: Agent Websites vs. Vanity Domain Sites vs. Full SEO Sites"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/46170118331675-Office-Team-Websites",
+    "text": "Office/Team Websites"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46170343885083-Initiating-your-Office-Website",
+    "text": "Initiating your Office Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/29366727277211-How-Lofty-Secures-Your-Website",
+    "text": "How Lofty Secures Your Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47502661499547-Hyperlocal-Website",
+    "text": "Hyperlocal Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/37950239399451-Websites-on-Lofty",
+    "text": "Websites on Lofty"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/14147666151579-SEO-Search-Engine-Optimization",
+    "text": "SEO (Search Engine Optimization)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/27854474290331-SEO-Best-Practices",
+    "text": "SEO Best Practices"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/27854941981467-Enhancing-Real-Estate-SEO-through-Strategic-Backlink-Building",
+    "text": "Enhancing Real Estate SEO through Strategic Backlink Building"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26697006829595-Google-Search-Console-Understanding-Index-Coverage-Issues",
+    "text": "Google Search Console: Understanding Index Coverage Issues"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/27072683872667-How-Lofty-Supports-SEO",
+    "text": "How Lofty Supports SEO"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/32089405166363-Minimize-SEO-Setbacks-when-Changing-your-Site-Domain",
+    "text": "Minimize SEO Setbacks when Changing your Site Domain"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/27854660233883-Navigating-Common-SEO-Pitfalls-in-Real-Estate",
+    "text": "Navigating Common SEO Pitfalls in Real Estate"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25737959190939-SEO-Tool",
+    "text": "SEO Tool"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038183991-Edit-Website-Meta-Tags",
+    "text": "Edit Website Meta Tags"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4413372157595-Header-Meta-tags-Search-Console",
+    "text": "Header Meta tags (Search Console)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/21967062975515-Search-Engine-Optimization-SEO-Tool",
+    "text": "Search Engine Optimization (SEO) Tool"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26400494235035-SEO-Optimization-and-Google-Search-Console-Integration",
+    "text": "SEO Optimization and Google Search Console Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/14489319973531-SEO-Updates-Timeline",
+    "text": "SEO Updates Timeline"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25324004000027-Lead-Conversion",
+    "text": "Lead Conversion"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25324158323867-Home-Valuation",
+    "text": "Home Valuation"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037923112-Home-Valuation-Block",
+    "text": "Home Valuation Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038509091-Home-Valuation-Page",
+    "text": "Home Valuation Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25737745863579-Registration-Form",
+    "text": "Registration Form"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4402562066971-Form-Block",
+    "text": "Form Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25324046064667-Registration-Setting",
+    "text": "Registration Setting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038005412-Questionnaire-Settings",
+    "text": "Questionnaire Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360056629652-Registration-Pop-up-Style-Settings",
+    "text": "Registration Pop-up Style & Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038373331-Registration-Pop-up-Trigger-Rule",
+    "text": "Registration Pop-up Trigger Rule"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/27710855547547-User-Consent-Disclaimer",
+    "text": "User Consent Disclaimer"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25324085768987-Webchat",
+    "text": "Webchat"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038610171-Chat-Box-Settings",
+    "text": "Chat Box Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360042586711-Facebook-Page-Set-up",
+    "text": "Facebook Page Set up"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25325797634715-MLS-Multiple-Listing-Service",
+    "text": "MLS (Multiple Listing Service)"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25743449401499-MLS-Application-Compliance",
+    "text": "MLS Application & Compliance"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/29397257666587-Global-Listing-Filters",
+    "text": "Global Listing Filters"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45508279387803-How-to-Connect-Your-MLS-to-Your-IDX-Website",
+    "text": "How to Connect Your MLS to Your IDX Website"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/31259313104539-MLS-Application-Agreement-Process",
+    "text": "MLS Application - Agreement Process"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/33091286385819-MLS-Application-Instruction-Process",
+    "text": "MLS Application - Instruction Process"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/33091887424667-MLS-Application-Online-Process",
+    "text": "MLS Application - Online Process"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4413545419675-Personal-Disclaimer",
+    "text": "Personal Disclaimer"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25325893451419-Listing-Filters",
+    "text": "Listing Filters"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25743550268315-Listing-Block",
+    "text": "Listing Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037923132-Listing-Blocks",
+    "text": "Listing Blocks"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25326084217243-Listing-Detail-Page",
+    "text": "Listing Detail Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360044128411-Listing-Info-Settings",
+    "text": "Listing Info Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360046736851-Location-Search-Bar-Settings",
+    "text": "Location Search Bar Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038321072-Property-Detail-Pages",
+    "text": "Property Detail Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25325928906779-Listing-Filter-Settings",
+    "text": "Listing Filter Settings"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038005212-Advanced-Control-Panel-for-Agent-Office-Criteria",
+    "text": "Advanced Control Panel for Agent/Office Criteria"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038373211-Listing-Filter-Basics",
+    "text": "Listing Filter Basics"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25326014614043-Listing-Search-Pages",
+    "text": "Listing Search Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4402568813723-Listing-Pages",
+    "text": "Listing Pages"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25324213403291-Domain",
+    "text": "Domain"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25737878829211-SSL",
+    "text": "SSL"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360004842792-Website-SSL-Certificates",
+    "text": "Website SSL Certificates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360004511652-Website-Domain",
+    "text": "Website Domain"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360054554712-Domain-Configuration-Guide",
+    "text": "Domain Configuration Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26404722103707-GoDaddy-Domain-Configuration-Guide",
+    "text": "GoDaddy Domain Configuration Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/27551462183451-Strategy-for-handling-DNS-issues",
+    "text": "Strategy for handling DNS issues"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4403710715547-Vanity-Domain-Purchase",
+    "text": "Vanity Domain Purchase"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25351030285723-Financial",
+    "text": "Financial"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25743327814427-Mortgage-Affordability-Calculator",
+    "text": "Mortgage / Affordability Calculator"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360040092351-Affordability-Calculator",
+    "text": "Affordability Calculator"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037923072-Calculator-Block",
+    "text": "Calculator Block"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038509151-Mortgage-Calculator-Page",
+    "text": "Mortgage Calculator Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25350882565019-Reporting",
+    "text": "Reporting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4407410907675-Site-Report",
+    "text": "Site Report"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25350363312283-Reviews",
+    "text": "Reviews"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/20796585371035-Google-My-Business-Zillow-and-RateMyAgent-Reviews-Integration",
+    "text": "Google My Business, Zillow, and RateMyAgent Reviews Integration"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25321740601243-Templates",
+    "text": "Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25736245531163-Custom-Fonts",
+    "text": "Custom Fonts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/5186887805083-Custom-Website-Fonts",
+    "text": "Custom Website Fonts"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25321829088539-Custom-Templates",
+    "text": "Custom Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/10486049285659-Website-Template-Library",
+    "text": "Website Template Library"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25321774161563-Lofty-Templates",
+    "text": "Lofty Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037814212-Changing-the-Website-Template",
+    "text": "Changing the Website Template"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/39795015672475-Recruiting-Templates",
+    "text": "Recruiting Templates"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25321863602331-Theme-Color-Font",
+    "text": "Theme Color & Font"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360037814232-Changing-the-Website-Theme",
+    "text": "Changing the Website Theme"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25324310315803-Blog",
+    "text": "Blog"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25738032569883-Blog",
+    "text": "Blog"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360039336851-Blog-Page",
+    "text": "Blog Page"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25321914931355-Customization",
+    "text": "Customization"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25736339008667-Customization",
+    "text": "Customization"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038705671-Advanced-Website-Customizations",
+    "text": "Advanced Website Customizations"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25326122926747-Listing-Plugin",
+    "text": "Listing Plugin"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25743601583515-Listing-Embed",
+    "text": "Listing Embed"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4403706761371-External-Website-Widgets",
+    "text": "External Website Widgets"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/35429819768091-Getting-Started-with-the-WordPress-Lofty-IDX-Plugin",
+    "text": "Getting Started with the WordPress + Lofty IDX Plugin"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26466256969371-WordPress-Lofty-IDX-Plugin",
+    "text": "WordPress + Lofty IDX Plugin"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25323408471963-Closely",
+    "text": "Closely"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/25737292071835-Closely",
+    "text": "Closely"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/21760812153243-How-to-set-up-the-Closely-mobile-app",
+    "text": "How to set up the Closely mobile app"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360041042691-Introduction-to-Closely-Mobile-App",
+    "text": "Introduction to Closely Mobile App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/115000107526-Lofty-Mobile-App",
+    "text": "Lofty Mobile App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34373279431963-Android-Notification-Setup-Guide",
+    "text": "Android Notification Setup Guide"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/28912815726875-How-to-find-other-agents-using-the-Lofty-mobile-app",
+    "text": "How to find other agents using the Lofty mobile app"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/23344667318171-Managing-Leads-in-the-Mobile-App",
+    "text": "Managing Leads in the Mobile App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/17801017502491-Lofty-Real-Estate-App",
+    "text": "Lofty Real Estate App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360039378151-Property-Alerts-Market-Snapshots-from-Mobile-App",
+    "text": "Property Alerts & Market Snapshots from Mobile App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360038978132-Merge-Leads-via-Mobile-App",
+    "text": "Merge Leads via Mobile App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/360012159692-Open-House-Tablet-App",
+    "text": "Open House Tablet App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360056122032-Open-House-Tablet-App",
+    "text": "Open House Tablet App"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/26670852378651-How-to-Contact-Lofty-Support",
+    "text": "How to Contact Lofty Support"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/15574019928731-Instagram-Connection-Troubleshooting",
+    "text": "Instagram Connection Troubleshooting"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/5187082598043-How-to-Submit-a-Product-Request-and-Feedback",
+    "text": "How to Submit a Product Request and Feedback"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/360056581812-Feature-Availability-for-Users-in-Canada",
+    "text": "Feature Availability for Users in Canada"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/5603805572763-Post-Codes-Browser-Settings-Canadian-Users",
+    "text": "Post Codes Browser Settings - Canadian Users"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/115000577426-Help-Troubleshooting",
+    "text": "See all 5 articles >"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47801571926811-Lofty-OAuth-2-0-API-Reference",
+    "text": "Lofty OAuth 2.0 API Reference"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47499531505179-API-Key-Management",
+    "text": "API Key Management"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/4405826620571-Getting-Started-with-the-Lofty-Developer-Platform",
+    "text": "Getting Started with the Lofty Developer Platform"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/4405718926491-Developers",
+    "text": "See all 3 articles >"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48927271391259-Feature-Updates-for-Lofty-4-40",
+    "text": "Feature Updates for Lofty 4.40"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/48342185855643-Feature-Updates-for-Lofty-4-39-5",
+    "text": "Feature Updates for Lofty 4.39.5"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47785431664923-Feature-Updates-for-Lofty-4-39",
+    "text": "Feature Updates for Lofty 4.39"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/47438279273243-Feature-Updates-for-Lofty-4-38",
+    "text": "Feature Updates for Lofty 4.38"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/46239449762587-Feature-Updates-for-Lofty-4-37",
+    "text": "Feature Updates for Lofty 4.37"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/45511206213403-Feature-Updates-for-Lofty-4-36",
+    "text": "Feature Updates for Lofty 4.36"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/202686203-Lofty-Feature-Updates",
+    "text": "See all 149 articles >"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/35351105913115-Lofty-Market-Reports-Playbook",
+    "text": "Lofty Market Reports Playbook"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/35350881941275-Lofty-Newsletter-Playbook-for-Realtors",
+    "text": "Lofty Newsletter Playbook for Realtors"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/35350476828699-Lofty-Property-Alerts-Playbook",
+    "text": "Lofty Property Alerts Playbook"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34837513794843-Just-Sold",
+    "text": "Just Sold"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34837474203291-Buyer-Lead-Generation-Playbook-Maximizing-Lofty-s-Tools-for-Client-Acquisition",
+    "text": "Buyer Lead Generation Playbook: Maximizing Lofty’s Tools for Client Acquisition"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/articles/34837420931867-Price-Reduced",
+    "text": "Price Reduced"
+  },
+  {
+    "url": "https://help.lofty.com/hc/en-us/sections/34808117964059-Done-For-You",
+    "text": "See all 8 articles >"
+  }
+]

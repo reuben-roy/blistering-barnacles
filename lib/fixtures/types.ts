@@ -91,9 +91,29 @@ export type NotificationItem = {
   unread: boolean;
 };
 
-export type DashboardTask = {
+export type DashboardScheduleKind = "task" | "meeting" | "appointment";
+
+export type DashboardScheduleStatus = "pending" | "scheduled" | "completed";
+
+export type DashboardScheduleSeed = {
   id: string;
-  label: string;
-  dueTime: string;
+  title: string;
+  kind: DashboardScheduleKind;
+  dayOffset: number;
+  startTime: string;
+  endTime: string;
   leadId?: string;
+  notes?: string;
+  status?: DashboardScheduleStatus;
+};
+
+export type DashboardScheduleItem = {
+  id: string;
+  title: string;
+  kind: DashboardScheduleKind;
+  startAt: string;
+  endAt: string;
+  leadId?: string;
+  notes?: string;
+  status?: DashboardScheduleStatus;
 };

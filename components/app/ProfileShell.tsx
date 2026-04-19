@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { IdCard } from "lucide-react";
+import { RelatedDocsCard } from "@/components/help/RelatedDocsCard";
 import type { UserProfile } from "@/lib/fixtures/types";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Button } from "@/components/ui/Button";
@@ -21,6 +22,7 @@ export function ProfileShell({ initial }: { initial: UserProfile }) {
           </Button>
         }
       />
+      <RelatedDocsCard presetId="profile" />
       <ProfileForm initial={initial} />
 
       {cardOpen ? (

@@ -1,3 +1,4 @@
+import { RelatedDocsCard } from "@/components/help/RelatedDocsCard";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -10,11 +11,12 @@ export default function AccountSecurityPage() {
         title="Account and Security"
         description="Demo layout only. No authentication or security guarantees."
       />
+      <RelatedDocsCard presetId="account" />
 
       <Card>
         <div className="text-sm font-semibold">Password</div>
         <p className="mt-2 text-sm text-muted">Last changed 92 days ago (fixture).</p>
-        <Button className="mt-3" variant="secondary" disabled>
+        <Button className="mt-3" variant="secondary" data-guide="settings.account.change-password">
           Change password (demo)
         </Button>
       </Card>
@@ -22,7 +24,7 @@ export default function AccountSecurityPage() {
       <Card>
         <div className="text-sm font-semibold">Two-factor authentication</div>
         <p className="mt-2 text-sm text-muted">Authenticator app recommended for teams.</p>
-        <Button className="mt-3" variant="secondary" disabled>
+        <Button className="mt-3" variant="secondary" data-guide="settings.account.enable-2fa">
           Enable 2FA (demo)
         </Button>
       </Card>

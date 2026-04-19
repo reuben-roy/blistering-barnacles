@@ -1,4 +1,5 @@
 import { faqItems } from "@/lib/help/faq.content";
+import { docTopicLabels, helpDocs } from "@/lib/help/docs.content";
 import { tutorials } from "@/lib/help/tutorials.content";
 import { leads } from "@/lib/fixtures/leads";
 import { navSearchRecords } from "./nav-routes";
@@ -29,7 +30,15 @@ export function buildSearchIndex(): SearchRecord[] {
     href: `/app/help/tutorials/${t.id}`,
   }));
 
-  return [...leadRecords, ...faqRecords, ...tutorialRecords, ...navSearchRecords];
+  const docsRecords: SearchRecord[] = helpDocs.map((doc) => ({
+    id: `doc-${doc.id}`,
+    group: "Help",
+    title: doc.title,
+    subtitle: `Official doc · ${docTopicLabels[doc.topic]}${doc.sourceSection ? ` · ${doc.sourceSection}` : ""}`,
+    href: `/app/help/docs/${doc.id}`,
+  }));
+
+  return [...leadRecords, ...faqRecords, ...tutorialRecords, ...docsRecords, ...navSearchRecords];
 }
 
 export function filterSearchIndex(

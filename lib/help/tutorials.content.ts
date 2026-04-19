@@ -143,7 +143,7 @@ export const tutorials: Tutorial[] = [
   {
     id: "ai-copilot-tour",
     title: "AI Copilots tour",
-    summary: "Visit the AI module stubs used in the top navigation.",
+    summary: "Visit the AI module stubs grouped in the left sidebar.",
     estimatedMinutes: 6,
     tags: ["AI"],
     steps: [

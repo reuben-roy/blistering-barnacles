@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Bell, HelpCircle, MessageSquare, Phone, Settings } from "lucide-react";
+import { Bell, HelpCircle, MessageSquare, Phone, Settings, Sparkles } from "lucide-react";
+import { useGuideSession } from "@/components/guide/GuideProvider";
 import { notifications } from "@/lib/fixtures/notifications";
 import { useMemo, useRef, useState } from "react";
 
@@ -12,6 +13,7 @@ function formatTime(iso: string) {
 
 export function UtilityRail() {
   const [open, setOpen] = useState(false);
+  const { assistantOpen, isDesktopGuide, toggleAssistant } = useGuideSession();
   const unread = useMemo(() => notifications.filter((n) => n.unread).length, []);
   const rootRef = useRef<HTMLDivElement>(null);
 
@@ -26,6 +28,30 @@ export function UtilityRail() {
       <button type="button" className="rounded-md p-2 text-muted hover:bg-app-bg hover:text-text" title="Messages (demo)">
         <MessageSquare className="h-5 w-5" />
       </button>
+      {isDesktopGuide ? (
+        <button
+          type="button"
+          className={`rounded-md p-2 ${
+            assistantOpen
+              ? "bg-blue-50 text-accent"
+              : "text-muted hover:bg-app-bg hover:text-text"
+          }`}
+          title="AI guide"
+          onClick={toggleAssistant}
+          data-guide="shell.utility.ai"
+        >
+          <Sparkles className="h-5 w-5" />
+        </button>
+      ) : (
+        <Link
+          href="/app/ai/assistant"
+          className="rounded-md p-2 text-muted hover:bg-app-bg hover:text-text"
+          title="AI guide"
+          data-guide="shell.utility.ai"
+        >
+          <Sparkles className="h-5 w-5" />
+        </Link>
+      )}
 
       <div className="relative">
         <button
@@ -65,10 +91,16 @@ export function UtilityRail() {
         className="rounded-md p-2 text-accent hover:bg-app-bg"
         title="Help"
         prefetch={false}
+        data-guide="shell.utility.help"
       >
         <HelpCircle className="h-5 w-5" />
       </Link>
-      <Link href="/app/settings/profile" className="rounded-md p-2 text-muted hover:bg-app-bg hover:text-text" title="Settings">
+      <Link
+        href="/app/settings/profile"
+        className="rounded-md p-2 text-muted hover:bg-app-bg hover:text-text"
+        title="Settings"
+        data-guide="shell.utility.settings"
+      >
         <Settings className="h-5 w-5" />
       </Link>
     </div>

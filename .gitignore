@@ -18,6 +18,7 @@ pnpm-debug.log*
 *.tsbuildinfo
 .eslintcache
 .turbo/
+.tmp/
 
 # deploy / ci
 .vercel/

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { RelatedDocsCard } from "@/components/help/RelatedDocsCard";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/ui/PageHeader";
@@ -24,6 +25,7 @@ export default async function LeadDetailPage({ params }: { params: Promise<{ id:
           Back to CRM
         </Link>
       </div>
+      <RelatedDocsCard presetId="crm-lead" />
 
       <Tabs
         defaultId="overview"

@@ -2,5 +2,5 @@
 import { PlaceholderPage } from "@/components/ui/PlaceholderPage";
 
 export default function Page() {
-  return <PlaceholderPage title="Integrations" body="Connect email, calendar, and webhooks stub." />;
+  return <PlaceholderPage title="Integrations" body="Connect email, calendar, and webhooks stub." helpPreset="integrations" />;
 };

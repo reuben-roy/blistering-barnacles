@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { docTopicLabels, getTopDocTopics, helpDocs } from "@/lib/help/docs.content";
 import { tutorials } from "@/lib/help/tutorials.content";
 import { faqItems } from "@/lib/help/faq.content";
 import { bestResumeTutorial, readTutorialProgress, tutorialCompletionRatio } from "@/lib/storage/tutorial-progress";
@@ -19,6 +20,7 @@ export function HelpHubClient() {
   const [q, setQ] = useState("");
   const progress = useMemo(() => readTutorialProgress(), []);
   const resume = useMemo(() => bestResumeTutorial(tutorials, progress), [progress]);
+  const featuredDocTopics = useMemo(() => getTopDocTopics(4), []);
 
   const results = useMemo(() => filterSearchIndex(index, q).slice(0, 10), [q]);
 
@@ -71,7 +73,7 @@ export function HelpHubClient() {
         </Card>
 
         <Card className="lg:col-span-2">
-          <div className="text-sm font-semibold">Recommended tutorials</div>
+          <div className="text-sm font-semibold">Interactive tutorials</div>
           <div className="mt-3 grid gap-3 sm:grid-cols-3">
             {pinned.map((id) => {
               const t = tutorials.find((x) => x.id === id);
@@ -86,6 +88,27 @@ export function HelpHubClient() {
           </div>
         </Card>
       </div>
+
+      <Card>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <div className="text-sm font-semibold">Official docs</div>
+            <div className="mt-1 text-sm text-muted">
+              {helpDocs.length} linked Lofty Help Center articles are indexed inside the Learning Hub.
+            </div>
+          </div>
+          <Link className="text-sm text-accent hover:underline" href="/app/help/docs">
+            Browse official docs
+          </Link>
+        </div>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {featuredDocTopics.map((topic) => (
+            <span key={topic} className="rounded-full bg-app-bg px-2 py-0.5 text-xs text-muted">
+              {docTopicLabels[topic]}
+            </span>
+          ))}
+        </div>
+      </Card>
 
       <Card>
         <div className="text-sm font-semibold">FAQ highlights</div>

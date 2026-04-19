@@ -6,9 +6,15 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:guide": "rm -rf /tmp/blistering-barnacles-guide-tests && tsc -p tsconfig.guide-tests.json && node --test /tmp/blistering-barnacles-guide-tests/lib/guide/*.test.js"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.20",
+    "@fullcalendar/daygrid": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/react": "^6.1.20",
+    "@fullcalendar/timegrid": "^6.1.20",
     "lucide-react": "^1.8.0",
     "next": "15.5.15",
     "react": "19.1.0",

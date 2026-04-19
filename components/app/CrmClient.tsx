@@ -36,8 +36,18 @@ export function CrmClient({ leads }: { leads: Lead[] }) {
   return (
     <div className="space-y-4">
       <div className="grid gap-3 lg:grid-cols-[1fr_200px_220px]">
-        <Input placeholder="Search name or email" value={q} onChange={(e) => setQ(e.target.value)} />
-        <Select label="Stage" value={stage} onChange={(e) => setStage(e.target.value as LeadStage | "All")}>
+        <Input
+          placeholder="Search name or email"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          data-guide="crm.search"
+        />
+        <Select
+          label="Stage"
+          value={stage}
+          onChange={(e) => setStage(e.target.value as LeadStage | "All")}
+          data-guide="crm.stage-filter"
+        >
           <option value="All">All stages</option>
           {stages.map((s) => (
             <option key={s} value={s}>
@@ -45,7 +55,12 @@ export function CrmClient({ leads }: { leads: Lead[] }) {
             </option>
           ))}
         </Select>
-        <Select label="Source" value={source} onChange={(e) => setSource(e.target.value as LeadSource | "All")}>
+        <Select
+          label="Source"
+          value={source}
+          onChange={(e) => setSource(e.target.value as LeadSource | "All")}
+          data-guide="crm.source-filter"
+        >
           <option value="All">All sources</option>
           {sources.map((s) => (
             <option key={s} value={s}>

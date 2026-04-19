@@ -77,22 +77,41 @@ export function ProfileForm({ initial }: { initial: UserProfile }) {
             <Image src={initial.avatarUrl} alt="" fill className="object-cover" sizes="220px" unoptimized />
           </div>
           <input ref={fileRef} type="file" accept="image/*" className="hidden" />
-          <Button variant="secondary" className="w-full max-w-[220px]" onClick={() => fileRef.current?.click()}>
+          <Button
+            variant="secondary"
+            className="w-full max-w-[220px]"
+            onClick={() => fileRef.current?.click()}
+            data-guide="settings.profile.upload-photo"
+          >
             Upload photo
           </Button>
         </div>
 
         <div className="space-y-4">
           <div className="grid gap-4 sm:grid-cols-2">
-            <Input label="First name" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
-            <Input label="Last name" value={lastName} onChange={(e) => setLastName(e.target.value)} />
+            <Input
+              label="First name"
+              value={firstName}
+              onChange={(e) => setFirstName(e.target.value)}
+              data-guide="settings.profile.first-name"
+            />
+            <Input
+              label="Last name"
+              value={lastName}
+              onChange={(e) => setLastName(e.target.value)}
+              data-guide="settings.profile.last-name"
+            />
           </div>
           <div>
             <div className="flex items-end justify-between gap-3">
               <div className="flex-1">
                 <Input label="Email address" value={email} readOnly />
               </div>
-              <button type="button" className="mb-2 text-sm text-accent hover:underline">
+              <button
+                type="button"
+                className="mb-2 text-sm text-accent hover:underline"
+                data-guide="settings.profile.change-email"
+              >
                 Change email address
               </button>
             </div>

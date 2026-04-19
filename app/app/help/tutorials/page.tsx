@@ -6,7 +6,10 @@ import { tutorials } from "@/lib/help/tutorials.content";
 export default function TutorialsLibraryPage() {
   return (
     <div className="mx-auto max-w-5xl space-y-6">
-      <PageHeader title="Tutorials" description="Task-based paths with local progress storage." />
+      <PageHeader
+        title="Tutorials"
+        description="Interactive walkthroughs with local progress storage. For official Lofty articles, browse Official docs."
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         {tutorials.map((t) => (
           <Link key={t.id} href={`/app/help/tutorials/${t.id}`} className="block">
