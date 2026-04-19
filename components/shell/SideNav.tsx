@@ -190,13 +190,13 @@ export function SideNav({ mobile = false, onNavigate }: SideNavProps) {
             href="/app"
             onClick={() => onNavigate?.()}
             className={`flex min-w-0 items-center ${railMode ? "justify-center" : "flex-1 gap-3"}`}
-            title="BrokerDesk"
+            title="Lofty"
           >
             <Image src="/logo.svg" alt="" width={36} height={36} className="h-9 w-9 shrink-0" unoptimized />
             {!railMode ? (
               <div className="min-w-0">
                 <div className="flex items-center gap-2">
-                  <span className="truncate text-base font-semibold text-white">BrokerDesk</span>
+                  <span className="truncate text-base font-semibold text-white">Lofty</span>
                   <span className="rounded-full bg-white/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white/70">
                     Demo
                   </span>
