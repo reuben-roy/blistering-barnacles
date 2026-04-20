@@ -47,12 +47,6 @@ export function retrieveLocalContext(question: string, queryEmbedding: number[] 
         topDoc &&
         topAnswer.relevance < 0.55 &&
         topDoc.relevance > topAnswer.relevance + 0.18,
-    ) ||
-    Boolean(
-      topAnswer &&
-        topDoc &&
-        topAnswer.relevance < 0.32 &&
-        topDoc.relevance >= topAnswer.relevance,
     );
 
   return {

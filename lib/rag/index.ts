@@ -4,12 +4,15 @@ import { retrieveLocalContext } from "./retrieve";
 import { buildSupportFallback, SUPPORT_CONTACT } from "./support";
 import type { ConversationMessage, RAGResult, RAGUserContext, Source } from "./types";
 
-function mapSources(ids: string[], answerHits: ReturnType<typeof retrieveLocalContext>["answerHits"]) {
-  const byId = new Map(answerHits.map((hit) => [hit.record.id, hit] as const));
+function mapSources(
+  ids: string[],
+  hits: ReturnType<typeof retrieveLocalContext>["answerHits"],
+) {
+  const byId = new Map(hits.map((hit) => [hit.record.id, hit] as const));
 
   const sources = ids
     .map((id) => byId.get(id))
-    .filter((hit): hit is (typeof answerHits)[number] => Boolean(hit))
+    .filter((hit): hit is (typeof hits)[number] => Boolean(hit))
     .map((hit) => ({
       id: hit.record.id,
       kind: hit.record.kind,
@@ -43,16 +46,23 @@ export async function queryRAG(
   const queryEmbedding = await createQueryEmbedding(userQuestion).catch(() => null);
   const retrieval = retrieveLocalContext(userQuestion, queryEmbedding);
 
-  if (retrieval.insufficientContext) {
-    return buildSupportFallback(mapDocSources(retrieval.docHits));
+  // When the local corpus (FAQs/guides/tutorials) is insufficient but help docs matched
+  // well, promote those docs to answer-bearing context so GPT can answer from them.
+  const useDocsAsPrimary = retrieval.insufficientContext && retrieval.docHits.length > 0;
+  const effectiveAnswerHits = useDocsAsPrimary ? retrieval.docHits : retrieval.answerHits;
+  const effectiveDocHits = useDocsAsPrimary ? [] : retrieval.docHits;
+
+  // No context at all — give up early.
+  if (effectiveAnswerHits.length === 0) {
+    return buildSupportFallback([]);
   }
 
   const structured = await createGroundedAnswer({
     question: userQuestion,
     history: conversationHistory.slice(-6),
     userContext,
-    answerHits: retrieval.answerHits,
-    docHits: retrieval.docHits,
+    answerHits: effectiveAnswerHits,
+    docHits: effectiveDocHits,
   });
 
   if (structured.insufficientContext) {
@@ -61,7 +71,7 @@ export async function queryRAG(
 
   return {
     answer: structured.answer,
-    sources: mapSources(structured.sourceIds, retrieval.answerHits),
+    sources: mapSources(structured.sourceIds, effectiveAnswerHits),
     insufficientContext: false,
     supportContact: SUPPORT_CONTACT,
   };

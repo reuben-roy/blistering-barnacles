@@ -30,8 +30,8 @@ export function AppShell({ children }: { children: ReactNode }) {
 
   return (
     <GuideProvider>
-      <div className="flex min-h-screen bg-app-bg">
-        <div className="hidden md:block">
+      <div className="flex h-screen overflow-hidden bg-app-bg">
+        <div className="hidden h-full md:block">
           <SideNav />
         </div>
 
